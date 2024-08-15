@@ -27,8 +27,8 @@ steps:
 – name: Install dependencies
 run: npm install
 #INSTALL VERCEL CLI IN SERVER.
-– name: Install Vercel CLI
-run: npm install –global vercel@latest
+#– name: Install Vercel CLI
+#run: npm install –global vercel@latest
 #SET ENVIRONMENT IN VERCEL.
 #CREATE ENVIRONMENT IN VERCEL & BUILD IN VERCEL.
 # GITHUB.COM > SETTINGS > SECRETS AND VARIABLES > ACTIONS > ENVRIONEMENT SECRETS.
